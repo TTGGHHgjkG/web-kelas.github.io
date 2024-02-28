@@ -1,0 +1,13 @@
+body {
+    background-image: url('cover.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (orientation: portrait) {
+    body {
+        background-image: url('cover-hp.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
